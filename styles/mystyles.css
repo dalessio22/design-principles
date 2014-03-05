@@ -47,3 +47,34 @@ footer {
     margin:10px;
     padding:10px;
 }
+@media screen and (max-width: 992px) {
+    
+   #wrapper {
+       width: 94%;
+    }
+    article {
+        width 68%;
+    }
+    aside {
+        width 30%;
+    }
+    
+    }
+        
+@media screen and (max-width: 68px) {
+    article {
+        width: auto;
+        float: none;
+    }
+    aside {
+        width: auto;
+        float: none;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    aside {
+        width: none;
+    }
+}
